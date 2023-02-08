@@ -17,7 +17,7 @@ const Integrants = (props) => {
   );
 }
 
-const Text_Info = (props) => {
+const Text_Info = () => {
   return (
     <div>
       <input type="text" id="fname" name="fname" placeholder="Escriu el teu nom"></input><br></br>
