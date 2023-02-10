@@ -1,3 +1,36 @@
 body {
     background-color: lightsalmon;
+    margin: 0 auto;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+}
+
+.carta {
+    border: solid black 5px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    width: 50%;
+    background-color: lightpink;
+    margin-bottom: 15px;
+}
+
+.containerImg {
+    width: 50%;
+    border: solid black 5px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.containerInfo {
+    width: 50%;
+    margin-left: 15px ;
 }
