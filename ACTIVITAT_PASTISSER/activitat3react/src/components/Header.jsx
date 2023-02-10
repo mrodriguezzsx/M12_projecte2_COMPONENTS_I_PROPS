@@ -6,12 +6,4 @@ const Header = (props) => {
     );
 }
 
-function EstructuraHeader() {
-    return (
-        <div className='header'>
-            <Header header="Activitat on hem de crear un component i passar diferents valors"/>
-        </div>
-    );
-}
-
-export default EstructuraHeader;
+export default Header;
